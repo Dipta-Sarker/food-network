@@ -1,0 +1,119 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Montserrat', sans-serif;
+}
+.text-highlight{
+	color:#Fc8F49;
+}
+h1{
+	font-size:60px;
+	margin:0;
+	color:#575757;
+}
+h2{
+	font-size:30px;
+}
+h4,p{
+	line-height:1.5;
+	color:#828282;
+	font-size:18px;
+}
+a{
+	text-decoration:none;
+	border-radius:5px;
+	padding:10px;
+	background-color:tomato;
+	color:white;
+}
+.top-section{
+	display:flex;
+	height:900px;
+}
+.middle-section{
+	height:600px;
+	background-image:url("images/bg-img.png");
+	display:flex;
+	background-position:center;
+}
+.card-section{
+	height:1150px;
+}
+.info{
+	
+	margin:38% 0 0 5%;
+}
+.info-img{
+	margin-top:5%;
+}
+.half-div{
+	width:40%;
+	margin-left:5%;
+	padding-left:2%;
+	overflow-y:hidden;
+	
+}
+.half-div img{
+	width:60%;
+	margin-top:35%;
+	
+}
+.card-info{
+	width:55%;
+	margin:0 auto;
+	text-align:center;
+}
+.card{
+	width:30%;
+	box-shadow:4px 4px 30px gray;
+	border-radius:10px;
+	margin:40px;
+	padding:15px;
+}
+.card-img img{
+	width:100%;
+}
+.card-area{
+	display:flex;
+}
+.social-media{
+	display:flex;
+	width:80%;
+	box-shadow:4px 4px 20px gray;
+	border-radius:10px;
+	margin:10% auto;
+	
+}
+.social-card{
+	margin-left:10%;
+	text-align:center;
+}
+
+.chef-zone{
+	display:flex;
+	margin:0 auto;
+	width:90%;
+}
+.chef{
+	width:40%;
+	display:block;
+	margin:0 auto;
+	text-align:center;
+}
+.chef img{
+	width:100%;
+}
+.chef-text{
+	text-align:center;
+	margin-bottom:80px;
+	font-weight:bold;
+}
+footer{
+	text-align:center;
+	height:250px;
+	background-color:black;
+}
+footer h2{
+	color:white;
+	padding:35px;
+}
